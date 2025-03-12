@@ -21,10 +21,10 @@ python elevator.py start=40 floors=39,3,44,1,4,5,33,22
 
 ## Assumptions
 This script was written with the following assumptions in mind:
-- All buttons are pressed at the beginning, meaning elevator will continue its direction and stop at each floor along the way-- not first pressed first
-- Each floor will only be visited once, even if it appears multiple times in the list.
+- All buttons are pressed at the beginning, meaning elevator will continue its direction and stop at each floor along the way
+- Each floor will only be visited once, even if it appears multiple times in the list
   - This acts as one elevator ride starting when someone gets in at the starting floor, then presses all buttons in the floors list
-- Direction of elevator is always down first if there are any floors pressed that are lower than the starting floor.
+- Direction of elevator is always down first if there are any floors pressed that are lower than the starting floor
 
 ## Potential Enhancements
 - Adding functionality for elevator direction
