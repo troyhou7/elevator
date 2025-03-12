@@ -11,11 +11,12 @@ One can run this script if they have python 3 installed using the command below:
 ```
 python elevator.py start=<int> floors=<int1,int2,int3...>
 ```
+**Note:** **start** and **floors** arguments must be **integers** greater than or equal to 1
+
 Here is an example with valid arguments:
 ```
 python elevator.py start=40 floors=39,3,44,1,4,5,33,22
 ```
-start and floors arguments must be **integers** greater than or equal to 1.
 
 
 ## Assumptions
