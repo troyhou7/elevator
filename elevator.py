@@ -21,7 +21,6 @@ def elevator():
 		start_floor = int(args[START_ARG])
 		visit_floors = [int(num) for num in args[FLOORS_ARG].split(",")]
 
-		print(start_floor)
 		if start_floor < 1:
 			print("Starting floor " + str(start_floor) + " invalid.  Must be 1 or greater.")
 			sys.exit(1)
